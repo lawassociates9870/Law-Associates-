@@ -1,0 +1,119 @@
+law firm/
+index.html
+css/
+style.css
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lalit's Law Firm</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Lalit's Law Firm</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Trusted Legal Advice</h2>
+    <p>We provide justice with honesty, integrity, and experience.</p>
+  </section>
+
+  <section class="services">
+    <h3>Our Services</h3>
+    <ul>
+      <li>Criminal Law</li>
+      <li>Civil Litigation</li>
+      <li>Corporate Advisory</li>
+      <li>Legal Drafting</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h3>Contact Us</h3>
+    <p>📞 +91 98765 43210</p>
+    <p>📧 lalitslawfirm@example.com</p>
+    <p>📍 Aligarh, Uttar Pradesh</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lalit's Law Firm. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #0d0d0d;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #ffffff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.services, .contact {
+  padding: 1.5rem;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.services ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.services li {
+  margin: 5px 0;
+  padding: 5px;
+  background: #e6e6e6;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0d0d0d;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* 📱 Mobile Friendly */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
